@@ -596,17 +596,16 @@ img {
 .subscribe-btn {
   height: 40px;
   min-width: 165px;
-  position: relative;
   text-align: left;
   padding-left: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .subscribe-icon {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 24px;
   fill: var(--white);
+  margin-left: 16px;
 }
 
 /*==========================*/
